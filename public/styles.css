@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;600;700;800;900&family=Questrial&display=swap');
+
+html {
+    background-color: black;
+  }
+body {
+    background-color: rgb(224,224,226);
+    font-family: Overpass;
+    border-radius: 40px;
+   /* box-sizing: border-box;*/
+    margin: 0;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+  .container {
+    min-height: 100vh;
+}
+.logo {
+    width: 235px;
+    height: 70px;
+}
+.header {
+    display: flex;
+    /* flex-direction: column; */
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.header h1 {
+    margin:0;
+    font-size: 40px;
+    font-weight: 900;
+}
+.rightH {
+    display: flex;
+}
+.rightH img {
+    width: 40px;
+    height: 40px;
+}
+.Henry {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    background-color:rgb(251,251,251);
+    border-radius: 13px;
+    justify-content: center;
+    align-items: center;
+}
+.Big-text {
+    font-size: 15px;
+    font-weight: 800;
+}
+.Henry p{
+    margin: 0;
+}
+.notification-bell{
+    background-color: red;
+
+}
+.avatar {
+    border-radius: 100%;
+}
+.content {
+    display: flex;
+    /*flex-direction: column;*/
+}
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.title {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu1 {
+    margin-top: 50px;
+}
+.sidebar-menu {
+    width: 300px;
+    height: 1005px;
+    background-color:rgb(0,29,61);
+    color: white;
+    font-weight:600;
+    border-top-right-radius: 100px;
+}
+.MC1 {
+    background-color: rgb(251,251,251);
+    width: 1080px;
+    height: 490px;
+    border-radius: 25px;     
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+  .Left-title h5 {
+    font-size: 26px;
+    margin: 0px;
+}
+#big-p {
+    font-size: 42px;
+    margin: 0px;
+    font-weight: 900;
+}
+.Left-title p {
+    margin: 0;
+    font-size: 17px;
+}
+.dropbtn {
+    width: 122px;
+    height: 33px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    border-width: 0.8px;
+    border-color: rgb(224,224,226);
+    box-shadow: none;
+}
+.MC2 {
+    margin-top: 25px;
+    background-color: rgb(251,251,251);
+    width: 1080px;
+    height: 464px;
+    border-radius: 25px; 
+}
+.title2 {
+    padding: 15px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+.title2 h5 {    
+    font-size: 26px;
+    margin: 0px;
+}
+.title2 p {
+    margin: 0;
+    font-size: 17px;
+}
+tr {
+    border: 1px;
+
+}
+.Right-content {
+    margin-left: 40px;
+  }
+.Transfer-shortcut {
+    width: 240px;
+    height: 140px;
+    background-color: rgb(252,193,1);
+    border-radius: 30px;
+}
+.Airtime-shortcut{
+    width: 240px;
+    height: 140px;
+    background-color: rgb(146,0,254);
+    margin-top: 40px;
+    border-radius: 30px;
+}
+.Bills-shortcut {
+    width: 240px;
+    height: 140px;
+    background-color: rgb(217,52,128);
+    margin-left: 40px;
+    border-radius: 30px;
+}
+.QRpayment-shortcut{
+    width: 240px;
+    height: 140px;
+    background-color: rgb(12,58,121);
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+.menu-shortcuts {
+    display: flex;
+    
+}
+.Notifications {
+    border-radius: 25px;
+    background-color: white;
+}
